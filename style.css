@@ -20,6 +20,8 @@ section {
     display: flex;
     /* 2 ta side er flexibal kora hoise*/
 
+    margin-bottom: 150px;
+
 }
 
 .box1 {
@@ -47,5 +49,38 @@ section {
 
     background-image: url("./picture/top-banner.png");
     background-repeat: no-repeat;
+
+}
+
+.b1 img {
+    width: 80%;
+
+
+}
+
+.b2 a {
+
+    background-image: linear-gradient(pink, rgb(228, 51, 51));
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: 700;
+    color: blue;
+
+
+}
+
+.b2 {
+
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10pxS;
+}
+
+.main2 {
+    background-image: url(./picture/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
 }
