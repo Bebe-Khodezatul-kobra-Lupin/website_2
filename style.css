@@ -16,7 +16,7 @@ h1 {
 
 }
 
-section {
+.flexbal {
     display: flex;
     /* 2 ta side er flexibal kora hoise*/
 
@@ -84,4 +84,56 @@ section {
     background-position: right;
     /*thik ase*/
 
+}
+
+.a {
+    width: 50%;
+    margin: 40px 40px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    box-shadow: 10px 10px 30px rgb(126, 126, 99);
+
+
+}
+
+.a h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+}
+
+.b {
+    width: 50%;
+    margin: 40px 40px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    box-shadow: 10px 10px 30px rgb(124, 124, 102);
+
+}
+
+.b h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.ok {
+    margin: 40px 40px;
+}
+
+.c {
+    padding: 20px 20px;
+}
+
+.colo {
+    color: coral;
+}
+
+.therd {
+
+    background-image: url(./picture/exp-bg.png);
+    background-repeat: no-repeat;
 }
